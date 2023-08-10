@@ -7,6 +7,11 @@
     background-position: center;
 }
 
+.titulo__cabecalho{
+   display: none;
+
+}
+
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -53,4 +58,23 @@
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
+}
+
+
+@media screen and (min-width: 825PX){
+   .titulo_cabecalho{
+    font-size: 25px;
+    margin-left: 0%;
+    color:  rgb(255, 0, 0);
+   }
+
+
+@media screen and (min-width:1024px){
+    .titulo_cabecalho{
+        font-size: 25px;
+        margin-left: 0%;
+        color:  rgb(25, 0, 255);
+       
+    }
+    
 }
